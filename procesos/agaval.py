@@ -16,7 +16,7 @@ import time
 agaval_api = Blueprint('agaval_api', __name__)
 
 fileserver_baseroute = ("//192.168.20.87", "/media")[socket.gethostname()=="contentobi"]
-
+"" 
 
 @agaval_api.route("/archivos_asignacion")
 def archivos_Asignacion():
